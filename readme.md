@@ -1,8 +1,17 @@
-
-
 ## 说明
 
 《build a large language model》学习
+
+
+
+## 环境
+
+```sh
+conda create -n LLMs python=3.10
+conda activate LLMs
+pip install -r requirements.txt
+```
+
 
 
 ## 项目结构

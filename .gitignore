@@ -1,10 +1,12 @@
 # .gitignore
 
-# 忽略 input 文件夹下的所有文件和子文件夹
-input/**
+# 忽略 .DS_Store
+.DS_Store
 
 # 忽略 models 文件夹下的所有文件和子文件夹
 models/**
+
+!input/the-verdict.txt
 
 # 确保跟踪 readme.md 文件
 !readme.md
