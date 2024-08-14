@@ -7,8 +7,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 ## About The Project
 
 从零开始构建大型语言模型 - 构建类GPT模型
@@ -61,3 +59,23 @@ pip install -r requirements.txt
 * 《build a large language model》
 * [datawhalechina/llms-from-scratch-cn](https://github.com/datawhalechina/llms-from-scratch-cn)
 * [rasbt/LLMs-from-scratc](https://github.com/rasbt/LLMs-from-scratch)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/RessMatthew/llms-from-scratch.svg?style=for-the-badge
+[contributors-url]: https://github.com/RessMatthew/llms-from-scratch/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/RessMatthew/llms-from-scratch.svg?style=for-the-badge
+[forks-url]: https://github.com/RessMatthew/llms-from-scratch/network/members
+[stars-shield]: https://img.shields.io/github/stars/RessMatthew/llms-from-scratch.svg?style=for-the-badge
+[stars-url]: https://github.com/RessMatthew/llms-from-scratch/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RessMatthew/llms-from-scratch.svg?style=for-the-badge
+[issues-url]: https://github.com/RessMatthew/llms-from-scratch/issues
+[license-shield]: https://img.shields.io/github/license/RessMatthew/llms-from-scratch.svg?style=for-the-badge
+[license-url]: https://github.com/RessMatthew/llms-from-scratch/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/RessMatthew
+
+
+
