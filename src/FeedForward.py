@@ -1,17 +1,16 @@
 import torch.nn as nn
 
-from GELU import GELU
-
-# 用 GELU 实现一个小型神经网络模块
+# FeedForward 前馈网络块
 class FeedForward(nn.Module):
     def __init__(self, cfg):
         super().__init__()
-        # 两个线性层和一个GELU激活函数
-        self.layers = nn.Sequential(
-            nn.Linear(cfg["emb_dim"], 4 * cfg["emb_dim"]),
-            GELU(),
-            nn.Linear(4 * cfg["emb_dim"], cfg["emb_dim"]),
-        )
+        self.linear1 = nn.Linear(cfg["emb_dim"], cfg["emb_dim"] * 4)
+        self.relu = nn.ReLU()
+        self.linear2 = nn.Linear(cfg["emb_dim"] * 4, cfg["emb_dim"])
+        self.dropout = nn.Dropout(cfg["drop_rate"])
  
     def forward(self, x):
-        return self.layers(x)
+        x = self.relu(self.linear1(x))
+        x = self.dropout(x)
+        x = self.linear2(x)
+        return x
