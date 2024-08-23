@@ -1,5 +1,9 @@
 # .gitignore
 
+/notebook/ch06/checkpoints
+/notebook/ch06/sms_spam_collection
+/notebook/ch06/*.csv
+
 # 忽略 .DS_Store
 .DS_Store
 
