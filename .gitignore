@@ -6,6 +6,12 @@
 /notebook/ch06/*.pdf
 /notebook/ch06/*.pth
 
+/notebook/ch07/checkpoints
+/notebook/ch07/sms_spam_collection
+/notebook/ch07/*.csv
+/notebook/ch07/*.pdf
+/notebook/ch07/*.pth
+
 /src/2_finetuning_for_classify/checkpoints
 
 # 忽略 .DS_Store
