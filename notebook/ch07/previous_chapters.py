@@ -254,6 +254,7 @@ def generate(model, idx, max_new_tokens, context_size, temperature=0.0, top_k=No
         idx_cond = idx[:, -context_size:]
         with torch.no_grad():
             logits = model(idx_cond)
+        assert logits.size(1) > 0, "logits is empty"
         logits = logits[:, -1, :]
 
         # New: Filter logits with top_k sampling
