@@ -42,8 +42,14 @@
   - ch04：实现 GPT - 2 模型
   - ch05：预训练
   - ch06：文本分类微调
-- src：编码 GPT 模型
+  - Ch07：指令微调
+- src：
+  - 1_pretraining：编码 GPT 模型，预训练
+  - 2_finetuning_for_classify：文本分类微调
+  - 3_instructions_finetuning：指令微调
+
 - models：训练过的模型
+- pdf：整理的笔记
 - readme.md
 
 ## Reference
