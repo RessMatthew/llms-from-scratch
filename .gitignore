@@ -13,6 +13,7 @@
 /notebook/ch07/*.pth
 
 /src/2_finetuning_for_classify/checkpoints
+/src/3_instructions_finetuning/checkpoints
 
 # 忽略 .DS_Store
 .DS_Store
